@@ -5,8 +5,6 @@ export default function About() {
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:itemspstart md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4x1 text-3x1 mb-4 font-medium text-white">
                         Hi, I'm Jason.
-                        <br className="hidden lg:inline-block" />
-                        I enjoy writing code!
                     </h1>
                     <p className="mb-8 leadinng-relaxed">
                         Here is a little about me...
@@ -20,7 +18,7 @@ export default function About() {
                         </a>
                     </div>
                 </div>
-                <img className="object-cover object-center rounded" alt="me" src="/TomTom_Profile_Picture.jpeg"/>
+                <img className="object-cover w-72 h-96 object-center rounded" alt="me" src="/TomTom_Profile_Picture.jpeg"/>
             </div>
         </section>
     )
